@@ -9,7 +9,7 @@ library(dplyr)
 ```
 ### Import Data and Create Table
 ```{r}
-mechacar_table <- read.csv(file='C:/Users/Owner/Documents/Bootcamp/AllHW/MechaCar_Statistical_Analysis/MechaCar_mpg.csv')
+mechacar_table <- read.csv(file='MechaCar_mpg.csv')
 ```
 ### Perform linear regression to predict mpg using all six variables
 ```{r}
@@ -31,7 +31,7 @@ The R-squared value is: 0.7149 which indicates a postive correlation between our
 **Deliverable 2**
 ### Import Data and Create Table
 ```{r}
-suspension_table <- read.csv(file='C:/Users/Owner/Documents/Bootcamp/AllHW/MechaCar_Statistical_Analysis/Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
+suspension_table <- read.csv(file='Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
 ```
 ### Create summary dataframe
 ```{r}
